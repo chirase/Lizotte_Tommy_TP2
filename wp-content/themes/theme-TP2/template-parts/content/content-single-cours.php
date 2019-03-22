@@ -21,9 +21,6 @@
 	<div class="entry-content">
 		<div class="wp-block-media-text alignwide" style="grid-template-columns:30% auto">
 		
-		
-		
-			
 			<div class="wp-block-media-text__content">
 				<?php
 					the_content();

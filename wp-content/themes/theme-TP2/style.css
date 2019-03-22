@@ -581,4 +581,22 @@ a {
   animation: anim3 1s forwards, anim2 1s 1s forwards;
   animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7); }
 
+#menu-burger {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 1%; }
+
+.animScreen {
+  display: flex;
+  flex-direction: row;
+  background-color: blue; }
+
+@media screen and (max-width: 600px) {
+  .animScreen {
+    display: flex;
+    flex-direction: column;
+    background-color: red; } }
+
 /*# sourceMappingURL=style.css.map */

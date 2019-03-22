@@ -26,9 +26,6 @@ window.addEventListener('load', function () {
     }
 
 
-
-
-
     document.body.onresize = function () {
         if (window.innerWidth < 600) {
             menuBurger.innerHTML = `☰<li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-191"></li>`;

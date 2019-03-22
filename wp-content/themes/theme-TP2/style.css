@@ -591,12 +591,15 @@ a {
 .animScreen {
   display: flex;
   flex-direction: row;
-  background-color: blue; }
+  font-size: 1em;
+  background-color: #5a5a5a;
+  color: white; }
 
 @media screen and (max-width: 600px) {
   .animScreen {
     display: flex;
     flex-direction: column;
-    background-color: red; } }
+    background-color: #838383;
+    font-size: 2em; } }
 
 /*# sourceMappingURL=style.css.map */

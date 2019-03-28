@@ -23,6 +23,7 @@
 		
 			<div class="wp-block-media-text__content">
 				<?php
+                var_dump(the_content());
 					the_content();
 				?>
 			</div>

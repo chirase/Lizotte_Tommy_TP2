@@ -85,6 +85,7 @@ echo '<b> Nombre d\'heures:</b> '.$lesCours[$sTitre][0]."<br/>";
 echo '<b> Enseigné par:</b> '.$lesCours[$sTitre][1];
 ?>
 
+
 <?php if ( ! is_page() ) : ?>
 <div class="entry-meta">
 	<?php twentynineteen_posted_by(); ?>

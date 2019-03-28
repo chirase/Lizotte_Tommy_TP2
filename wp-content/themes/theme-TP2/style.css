@@ -103,6 +103,8 @@ http: //krasimirtsonev.com/blog/article/SASS-content-directive-is-a-wonderful-th
       outline-offset: -4px; }
     .main-navigation button:active {
       transform: scale(0.99); }
+  .main-navigation .entry-header {
+    box-shadow: 5px 5px; }
   .main-navigation .main-menu {
     display: inline-block;
     margin: 0;

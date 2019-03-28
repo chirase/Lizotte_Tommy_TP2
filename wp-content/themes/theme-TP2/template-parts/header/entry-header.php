@@ -81,8 +81,8 @@ $sTitre = the_title('','', false);
     "TIM-111 Environnement professionnel"=>array("45 heures
 ",""));    
 
-echo 'Nombre d\'heures: '.$lesCours[$sTitre][0]."<br/>";
-echo 'Enseigné par: '.$lesCours[$sTitre][1];
+echo '<b>Nombre d\'heures:</b> '.$lesCours[$sTitre][0]."<br/>";
+echo '<b>Enseigné par:</b> '.$lesCours[$sTitre][1];
 ?>
 
 <?php if ( ! is_page() ) : ?>

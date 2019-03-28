@@ -23,13 +23,12 @@
     @include media(mobile){
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
-        font-size : 1.3em;
-
+        font-size : 1.2em;
     }
 
     @include media(tablet) {
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
+            grid-gap: 11px;
             font-size : 1em;
      
     }

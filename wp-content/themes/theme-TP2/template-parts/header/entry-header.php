@@ -11,6 +11,7 @@ $discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentyni
 
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); 
 
+
 $sTitre = the_title('','', false);
  $lesCours = array(
     "TIM-528 Création 3D-3"=>array("

@@ -10,7 +10,48 @@
 $discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentynineteen_get_discussion_data() : null; ?>
 
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); 
-echo :
+
+$lesCours = array(
+    "TIM-528 Création 3D-3"=>array("",""),
+    "TIM-535 Gestion d’un projet multimédia"=>array("",""),
+    "TIM-552 Développement de jeu"=>array("",""),
+    "TIM-554 Production Web"=>array("",""),
+    "TIM-629 Création vidéo 2"=>array("",""),
+    "TIM-636 Projet de fin d’études"=>array("",""),
+    "TIM-640 Programmation et veille technologique"=>array("",""),
+    "TIM-655 Stage en milieu de travail"=>array("",""),
+    "TIM-447 Assemblage de jeu"=>array("",""),
+    "TIM-434 Scénarisation"=>array("",""),
+    "TIM-427 Conception sonore"=>array("",""),
+    "TIM-426 Création 3D-2"=>array("",""),
+    "TIM-346 Programmation Web 2"=>array("",""),
+    "TIM-345 Programmation d’animation 2"=>array("",""),
+    "TIM-344 Éléments médiatiques et Bases de données"=>array("",""),
+    "TIM-333 Design d’interfaces"=>array("",""),
+    "TIM-325 Création vidéo 1"=>array("",""),
+    "TIM-324 Création 3D-1"=>array("45 heures","Grégory Bony"),
+    "TIM-243 Programmation Web 1"=>array("60 heures","
+    Vincent LeBlanc
+    Camille Semaan
+"),
+    "TIM-242 Programmation d’animation 1"=>array("45 heures","Dominic Girard"),
+    "TIM-232 Design graphique 2"=>array("",""),
+    "TIM-223 Image numérique 2"=>array("60 heures","
+    Denis Pellerin
+    Xavier Marchand
+    David Ross
+"),
+    "TIM-151 Création web"=>array("60 heures","Eddy Martin"),
+    "TIM-131 Design graphique 1"=>array("45 heures","
+    Denis Pellerin
+    Vincent LeBlanc
+"),
+    "TIM-122 Image numérique 1"=>array("60 heures","Denis Pellerin"),
+    "TIM-121 Animation"=>array("45 heures","Martin St-Pierre"),
+    "TIM-111 Environnement professionnel"=>array("45 heures
+",""));    
+
+
 ?>
 
 <?php if ( ! is_page() ) : ?>

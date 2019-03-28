@@ -11,7 +11,8 @@ $discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentyni
 
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); 
 
-$lesCours = array(
+$sTitre = the_title('','', false);
+ $lesCours = array(
     "TIM-528 Création 3D-3"=>array("
     Grégory Bony
 ","45 heures"),
@@ -80,7 +81,8 @@ $lesCours = array(
     "TIM-111 Environnement professionnel"=>array("45 heures
 ",""));    
 
-
+echo 'Nombre d\'heures: '.$lesCours[$sTitre][0]."<br/>";
+echo 'Enseigné par: '.$lesCours[$sTitre][1];
 ?>
 
 <?php if ( ! is_page() ) : ?>

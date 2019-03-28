@@ -12,23 +12,52 @@ $discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentyni
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); 
 
 $lesCours = array(
-    "TIM-528 Création 3D-3"=>array("",""),
-    "TIM-535 Gestion d’un projet multimédia"=>array("",""),
-    "TIM-552 Développement de jeu"=>array("",""),
-    "TIM-554 Production Web"=>array("",""),
-    "TIM-629 Création vidéo 2"=>array("",""),
-    "TIM-636 Projet de fin d’études"=>array("",""),
-    "TIM-640 Programmation et veille technologique"=>array("",""),
-    "TIM-655 Stage en milieu de travail"=>array("",""),
-    "TIM-447 Assemblage de jeu"=>array("",""),
-    "TIM-434 Scénarisation"=>array("",""),
-    "TIM-427 Conception sonore"=>array("",""),
-    "TIM-426 Création 3D-2"=>array("",""),
-    "TIM-346 Programmation Web 2"=>array("",""),
-    "TIM-345 Programmation d’animation 2"=>array("",""),
-    "TIM-344 Éléments médiatiques et Bases de données"=>array("",""),
-    "TIM-333 Design d’interfaces"=>array("",""),
-    "TIM-325 Création vidéo 1"=>array("",""),
+    "TIM-528 Création 3D-3"=>array("
+    Grégory Bony
+","45 heures"),
+    "TIM-535 Gestion d’un projet multimédia"=>array("45 heures","
+    Eddy Martin
+"),
+    "TIM-552 Développement de jeu"=>array("75 heures","
+    Dominic Girard
+    Vahik Toroussian
+    Mathieu Dionne
+"),
+    "TIM-554 Production Web"=>array("75 heures","
+    Eddy Martin
+    Xavier Marchand
+    Caroline Martin
+"),
+    "TIM-629 Création vidéo 2"=>array("45 heures","
+    Denis Pellerin
+    Martin St-Pierre
+"),
+    "TIM-636 Projet de fin d’études"=>array("75 heures","
+    Johanne Massé
+"),
+    "TIM-640 Programmation et veille technologique"=>array("60 heures","Eddy Martin"),
+    "TIM-655 Stage en milieu de travail"=>array("210 heures",""),
+    "TIM-447 Assemblage de jeu"=>array("75 heures","
+    Vahik Toroussian
+    Mathieu Dionne
+"),
+    "TIM-434 Scénarisation"=>array("45 heures","
+    Grégory Bony
+    Denis Pellerin
+"),
+    "TIM-427 Conception sonore"=>array("45 heures","Martin St-Pierre"),
+    "TIM-426 Création 3D-2"=>array("45 heures","Grégory Bony"),
+    "TIM-346 Programmation Web 2"=>array("60 heures","
+    Caroline Martin
+    Camille Semaan
+"),
+    "TIM-345 Programmation d’animation 2"=>array("60 heures","Johanne Massé"),
+    "TIM-344 Éléments médiatiques et Bases de données"=>array("60 heures","Camille Semaan"),
+    "TIM-333 Design d’interfaces"=>array("60 heures","Dominic Girard"),
+    "TIM-325 Création vidéo 1"=>array("45 heures","
+    Denis Pellerin
+    Martin St-Pierre
+"),
     "TIM-324 Création 3D-1"=>array("45 heures","Grégory Bony"),
     "TIM-243 Programmation Web 1"=>array("60 heures","
     Vincent LeBlanc
